@@ -25,7 +25,7 @@ namespace BCS426_Lab3
 
         public override String ToString()
         {
-            return description + ", by " + auth + ", for $" + price + "\t";
+            return description + ", by " + auth + ", for $" + price + "\t" + code;
         }
     }
 }

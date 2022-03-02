@@ -58,22 +58,22 @@ namespace BCS426_Lab3
                         Software sw1 = new Software(69.99m, "Version 16.0.10827",
                             "Microsoft 365 Personal");
 
-                        Console.WriteLine(book1.ToString());
-                        Console.WriteLine("How many copies would you like to purchase?\n" +
-                            "Please type a number and press enter...");
+                        Console.WriteLine("\t" + book1.ToString());
+                        Console.WriteLine("\tHow many copies would you like to purchase?\n" +
+                            "\tPlease type a number and press enter...");
                         int choice1 = int.Parse(Console.ReadLine());
 
-                        Console.WriteLine(book2.ToString());
-                        Console.WriteLine("How many copies would you like to purchase?\n" +
-                            "Please type a number and press enter...");
+                        Console.WriteLine("\t" + book2.ToString());
+                        Console.WriteLine("\tHow many copies would you like to purchase?\n" +
+                            "\tPlease type a number and press enter...");
                         int choice2 = int.Parse(Console.ReadLine());
                         
                         decimal subtotal1 = book1.sell(choice1) + book2.sell(choice2);
                         Console.WriteLine("Your subtotal for your books is $" + subtotal1 + "\n");
 
-                        Console.WriteLine(sw1.ToString());
-                        Console.WriteLine("How many copies would you like to purchase?\n" +
-                            "Please type a number and press enter...");
+                        Console.WriteLine("\t" + sw1.ToString());
+                        Console.WriteLine("\tHow many copies would you like to purchase?\n" +
+                            "\tPlease type a number and press enter...");
                         int choice3 = int.Parse(Console.ReadLine());
 
                         decimal subtotal2 = sw1.sell(choice3);
