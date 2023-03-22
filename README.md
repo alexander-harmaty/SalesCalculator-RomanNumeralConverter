@@ -1,4 +1,6 @@
-# Sales Calculator and Roman Numeral Converter (FSC-BCS-426-Lab3)
+# Sales Calculator and Roman Numeral Converter 
+
+(FSC-BCS-426-Lab3)
 
 ## Output Menu
 
