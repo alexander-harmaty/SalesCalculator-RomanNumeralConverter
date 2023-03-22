@@ -10,7 +10,7 @@
 
 This project was one of the first assignments for my C# programming class.
 
-The goal of this assignment was for students to get comfortable with C# and ASP.NET, so we were prompted to further explore different class types.
+The goal of this assignment was for students to get comfortable with C#, so we were prompted to further explore different class types and behavior.
 
 We were expected to be able to use abstract and static classes, interfaces, and inheritance to write a sales calculator and convert numbers to Roman numerals.
 
@@ -18,7 +18,7 @@ This was a solo assignment made with C# and ASP.NET using Visual Studio 2022.
 
 ## Features
 
-- Calculates the total sales amount including discounts and taxes.
+- Calculates the total sales amount.
 - Converts positive integer numbers to Roman numerals.
 
 ## How It Works
