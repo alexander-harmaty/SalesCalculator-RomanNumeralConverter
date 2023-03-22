@@ -2,7 +2,7 @@
 
 ## Output Menu
 
-![OutputMenu](images/outputMenu.png "OutputMenu")
+![OutputMenu](images/outputmenu.png "OutputMenu")
 
 ## Assignment Context
 
