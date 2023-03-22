@@ -2,7 +2,7 @@
 
 ## Output Menu
 
-![OutputMenu](outputMenu.png "OutputMenuScreenshot")
+![OutputMenu](images/outputMenu.png "OutputMenu")
 
 ## Assignment Context
 
@@ -24,29 +24,24 @@ This was a solo assignment made with C# and ASP.NET using Visual Studio 2022.
 ### Sales Calculator
 
 The sales calculator is implemented using an abstract class `Product` and an interface `ISellable`. 
-
 The `Product` class represents a product with a price, code, and description. 
-
 The `Book` class and `Software` class inherit from the `Product` class and implement the `ISellable` interface. 
-
 The `Book` class represents a book with an author, and the `Software` class represents software with a version.
 
 The sales calculation is done in the `sell()` method of the `Book` and `Software` classes. 
-
 The `Main()` method of the `Program` class prompts the user to input the number of each item they would like to buy and calculates the total sales amount based on the prices and quantities.
 
 #### Output
 
-![option1](option1.png "SalesCalculatorOutputScreenshot")
+![Option1](images/option1.png "Option1")
 
 ### Roman Numeral Converter
 
 The Roman numeral converter is implemented using an extension method `toRoman()` for the `int` data type. 
-
 The method takes an integer as input and returns its Roman numeral representation as a string.
 
 The `Main()` method of the `Program` class prompts the user to input a number to convert to Roman numerals and calls the `toRoman()` method to perform the conversion.
 
 #### Output
 
-![option1](option2.png "RomanNumeralConverterOutputScreenshot")
+![Option2](images/option2.png "Option2")
